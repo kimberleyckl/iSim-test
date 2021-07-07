@@ -1,0 +1,48 @@
+.RAltimeter {
+	position: relative;
+	height: 512px;
+	overflow: hidden;
+}
+
+.RAltimeter img {
+	position: absolute;
+	display: block;
+	left: 0;
+}
+
+.lightOff {
+	/* color picking: https://mycolor.space/gradient?ori=circle&hex=%23990F02&hex2=%23610C04&sub=1 */
+	background-image: radial-gradient(circle, #990f02, #8b0e04, #7d0d05, #6f0d05, #610c04);
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	position: fixed;
+	top: 265px;
+	left: 87px;
+	border: 2px solid black;
+}
+
+.lightOn {
+	background-image: radial-gradient(
+		circle,
+		#fddef0,
+		#fccce1,
+		#fcb9cf,
+		#fba7ba,
+		#f995a2,
+		#f5868f,
+		#ef777b,
+		#e86866,
+		#e05754,
+		#d74641,
+		#cd332f,
+		#c21b1b
+	);
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	position: fixed;
+	top: 265px;
+	left: 87px;
+	border: 2px solid black;
+}
